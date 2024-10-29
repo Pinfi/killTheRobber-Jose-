@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(CapturaKILLTHEROBERS.PNG);
+    background-repeat: no-repeat;
+    background-position: end;
+    background-size: 100%;
+    cursor: url('nuevaMirilla.png'), auto;
+}
+
+.contentTitulo {
+
+    width: 500px;
+    height: 100px;
+    background-color: rgb(248, 129, 54);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.75);
+}
+
+.contentTitulo h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+.contentTitulo p {
+    margin: 5px 0 0 0;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    columns: 3;
+    margin-top: 20px;
+    height: 500px;
+    max-width: 650px;
+   
+}
+
+.c1,
+.c2,
+.c3,
+.c4,
+.c5,
+.c6,
+.c7,
+.c8,
+.c9 {
+    margin: 5px 7.5px 5px 5px;
+    width: 200px;
+    height: 150px;
+}
+
+.imagen {
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+#tiempo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.leyenda {
+    position: absolute;
+    left: 35px;
+    top: 150px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: orange;
+    font-weight: bold;
+    box-shadow: 0px 0px 20px 8px rgba(0, 0, 0, 0.75);
+}
+
+.leyenda img {
+    width: 75px;
+    border: 1px solid black;
+}
+
+td {
+    width: 80px;
+}
